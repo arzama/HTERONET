@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Eronet.Search"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Eronet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image Name="header" VerticalAlignment="Top" Source="/Assets/ht_eronet.png"></Image>
+        <TextBox x:ConnectionId='1' Name="searchBox"                                     FontSize="30" Background="White" Width="360" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,90,0,0"                          />
+        <Grid Margin="0,160,0,0">
+            <ListView x:ConnectionId='2' Name="ListaTrazi" Margin="20,0,20,0"                           >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,0,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"></ColumnDefinition>
+                                <ColumnDefinition Width="auto"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Width="50" Height="50" Source="{Binding iconUrl}" HorizontalAlignment="Left"></Image>
+                            <TextBlock Margin="10,0,0,0" FontSize="25" Grid.Column="1" Text="{Binding appHeadline}" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </Grid>
+</Page>
+

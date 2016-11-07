@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ALL-IN-ONE-07</Machine>
+    <WindowsUser>Korisnik</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f8684427-28b2-44f6-b8b9-3c5c8970c6db</PackageIdentityName>
+    <IntermediateOutputPath>G:\Intera\Eronet\Eronet\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\Intera\Eronet\Eronet\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\bin\Debug\Eronet.exe">
+      <PackagePath>Eronet.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Almir.jpg">
+      <PackagePath>Assets\Almir.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Amer.jpg">
+      <PackagePath>Assets\Amer.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Amir.jpg">
+      <PackagePath>Assets\Amir.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Arza.jpg">
+      <PackagePath>Assets\Arza.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Danijel.jpg">
+      <PackagePath>Assets\Danijel.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Drazen.jpg">
+      <PackagePath>Assets\Drazen.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Haris.jpg">
+      <PackagePath>Assets\Haris.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Meliha.jpg">
+      <PackagePath>Assets\Meliha.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Tarik.jpg">
+      <PackagePath>Assets\Tarik.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\BadgeLogo.scale-240.png">
+      <PackagePath>Assets\BadgeLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\ht_eronet.png">
+      <PackagePath>Assets\ht_eronet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\logo_intera.png">
+      <PackagePath>Assets\logo_intera.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\searchIcon.png">
+      <PackagePath>Assets\searchIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square150x150Logo.scale-140.png">
+      <PackagePath>Assets\Square150x150Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square150x150Logo.scale-240.png">
+      <PackagePath>Assets\Square150x150Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square44x44Logo.scale-140.png">
+      <PackagePath>Assets\Square44x44Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square44x44Logo.scale-240.png">
+      <PackagePath>Assets\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square71x71Logo.scale-140.png">
+      <PackagePath>Assets\Square71x71Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\storeUrlIcon.png">
+      <PackagePath>Assets\storeUrlIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Wide310x150Logo.scale-140.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\Assets\Wide310x150Logo.scale-240.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\bin\Debug\AppDetails.xbf">
+      <PackagePath>AppDetails.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\bin\Debug\Category.xbf">
+      <PackagePath>Category.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\bin\Debug\Search.xbf">
+      <PackagePath>Search.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\bin\Debug\Eronet.xr.xml">
+      <PackagePath>Eronet.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Intera\Eronet\Eronet\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

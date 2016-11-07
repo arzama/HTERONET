@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobAppModel>
+	<appInfo>
+    		<id>1</id>
+		<preporuceno>1</preporuceno>
+        	<banner>http://i.imgur.com/K0N8e1f.png</banner>
+		<appHeadline>Facebook</appHeadline>
+		<storeURL>http://www.windowsphone.com/en-us/store/app/facebook/82a23635-5bd9-df11-a844-00237de2db9e</storeURL>
+		<iconUrl>http://cdn.marketplaceimages.windowsphone.com/v8/images/2dae7b66-6680-4cbd-afb5-b787caadbe32</iconUrl>
+		<appDesc>Keeping up with friends is faster than ever.</appDesc>
+		<screenshots>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/cef20043-60da-4038-aabb-554f40c6aba3</screenshot>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/2996a33d-1dc6-423f-b169-8514c45b2156</screenshot>
+		</screenshots>
+		<category>Drustvene</category>
+    		<ratingPoints>3</ratingPoints>        	
+		<storePrice>Free</storePrice>    		
+    		<developer>Microsof Corporation</developer>		
+    	</appInfo>
+	<appInfo>
+    		<id>2</id>
+		<preporuceno>1</preporuceno>
+        	<banner>http://i.imgur.com/66VjWMT.png</banner>
+		<appHeadline>Viber</appHeadline>
+		<storeURL>http://www.windowsphone.com/en-us/store/app/viber/3d051f9b-9e03-456f-b647-bea34fe7031c</storeURL>
+		<iconUrl>http://cdn.marketplaceimages.windowsphone.com/v8/images/fe9d6504-b937-44d3-ad8f-fd549386b996</iconUrl>
+		<appDesc>With Viber, everyone in the world can connect. Freely. More than 200 million Viber users text, call, and send photo and video messages worldwide over Wifi or 3G - for free.</appDesc>
+		<screenshots>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/b12c5d9a-c52f-4506-9500-4922d4549c70</screenshot>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/2761685f-26b6-4dc1-b7d4-60bea6083b2d</screenshot>
+		</screenshots>
+		<category>Komunikacije</category>
+    		<ratingPoints>3.8</ratingPoints>        	
+		<storePrice>Free</storePrice>    		
+    		<developer>Viber Media S.a.r.l.</developer>		
+    	</appInfo>
+	<appInfo>
+    		<id>3</id>
+		<preporuceno>0</preporuceno>
+        	<banner>http://i.imgur.com/d8fIkUR.png</banner>
+		<appHeadline>WhatsApp Messenger</appHeadline>
+		<storeURL>http://www.windowsphone.com/en-us/store/app/whatsapp/218a0ebb-1585-4c7e-a9ec-054cf4569a79</storeURL>
+		<iconUrl>http://cdn.marketplaceimages.windowsphone.com/v8/images/47eac567-ec60-4b3f-b731-71a33fbfb047</iconUrl>
+		<appDesc>WhatsApp Messenger is a smartphone messenger available for Windows Phone and other smartphones.</appDesc>
+		<screenshots>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/55f995f2-5cfa-4b6d-ab09-ee4427122263</screenshot>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/29896c66-2b93-436a-9ef4-559ab377c881</screenshot>
+		</screenshots>
+		<category>Komunikacije</category>
+    		<ratingPoints>4</ratingPoints>        	
+		<storePrice>Free</storePrice>    		
+    		<developer>WhatsApp Inc.</developer>		
+    	</appInfo>
+	<appInfo>
+    		<id>4</id>
+		<preporuceno>1</preporuceno>
+        	<banner>http://i.imgur.com/BX8ftxE.png</banner>
+		<appHeadline>Skype</appHeadline>
+		<storeURL>http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51</storeURL>
+		<iconUrl>http://cdn.marketplaceimages.windowsphone.com/v8/images/ec9828e3-6d00-45d6-bc88-35533091f9f3</iconUrl>
+		<appDesc>Make free Skype to Skype video and voice calls as well as send instant messages to friends and family around the world.</appDesc>
+		<screenshots>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/0a6ee3c1-c4a6-4ac0-b758-adc4ebc49a08</screenshot>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/89a95f96-c1eb-4778-aaab-b6429ea326e7</screenshot>
+		</screenshots>
+		<category>Komunikacije</category>
+    		<ratingPoints>3.2</ratingPoints>        	
+		<storePrice>Free</storePrice>    		
+    		<developer>Skype</developer>		
+    	</appInfo>
+	<appInfo>
+    		<id>5</id>
+		<preporuceno>1</preporuceno>
+        	<banner>http://i.imgur.com/TfpOeaa.png</banner>
+		<appHeadline>Twitter</appHeadline>
+		<storeURL>http://www.windowsphone.com/en-us/store/app/twitter/0b792c7c-14dc-df11-a844-00237de2db9e</storeURL>
+		<iconUrl>http://cdn.marketplaceimages.windowsphone.com/v8/images/cdcfbe17-5973-46e4-a2dc-b5d3c18ee6e8</iconUrl>
+		<appDesc>Twitter is a free app that lets you connect with people, express yourself, and discover more about all the things you love.</appDesc>
+		<screenshots>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/f90936e5-a968-4f7f-8c6a-70fc7c14215c</screenshot>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/9698b1dc-b03b-4c7c-a4cd-777badd5f7cc</screenshot>
+		</screenshots>
+		<category>Drustvene</category>
+    		<ratingPoints>3.3</ratingPoints>        	
+		<storePrice>Free</storePrice>    		
+    		<developer>Twitter Inc.</developer>		
+    	</appInfo>
+	<appInfo>
+    		<id>6</id>
+		<preporuceno>0</preporuceno>
+        	<banner>http://i.imgur.com/OFK7R1T.png</banner>
+		<appHeadline>Messenger</appHeadline>
+		<storeURL>http://www.windowsphone.com/en-us/store/app/messenger/3219d30d-4a23-4f58-a91c-c44b04e6a0c7</storeURL>
+		<iconUrl>http://cdn.marketplaceimages.windowsphone.com/v8/images/c0b418f8-99f4-4f46-8ae3-06645b4d385a</iconUrl>
+		<appDesc>Messenger is just like texting, but you don't have to pay for every message (it works with your data plan).</appDesc>
+		<screenshots>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/8a36ae0e-ddb9-473f-89b0-ce6a204c754c</screenshot>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/a475222f-a9ff-4ceb-98d7-129fa63dc4cc</screenshot>
+		</screenshots>
+		<category>Komunikacije</category>
+    		<ratingPoints>3.9</ratingPoints>        	
+		<storePrice>Free</storePrice>    		
+    		<developer>Facebook, Inc.</developer>		
+    	</appInfo>
+	<appInfo>
+    		<id>7</id>
+		<preporuceno>1</preporuceno>
+        	<banner>http://cdn.marketplaceimages.windowsphone.com/v8/images/607892bb-3766-4c9d-a893-d0b5db3ef77a</banner>
+		<appHeadline>Asphalt 7 Heat</appHeadline>
+		<storeURL>http://www.windowsphone.com/en-us/store/app/asphalt-7-heat/013e9108-6170-496f-9328-3b57f2b4732f</storeURL>
+		<iconUrl>http://cdn.marketplaceimages.windowsphone.com/v8/images/607892bb-3766-4c9d-a893-d0b5db3ef77a</iconUrl>
+		<appDesc>This game allows multiplayer play and is not subject to Xbox LIVE parental settings. Microsoft shares User IDs and gamertags. Hit the speed of heat in the newest, fastest, most visually stunning edition of the famed Asphalt series.</appDesc>
+		<screenshots>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/77cd7bea-1cf4-41c8-af2a-d6eba0b04109</screenshot>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/1d81a4a3-a811-499b-a59e-30de0273bdff</screenshot>
+		</screenshots>
+		<category>Igre</category>
+    		<ratingPoints>4.7</ratingPoints>        	
+		<storePrice>1,99</storePrice>    		
+    		<developer>Gameloft.</developer>		
+    	</appInfo>
+	<appInfo>
+    		<id>8</id>
+		<preporuceno>1</preporuceno>
+        	<banner>http://cdn.marketplaceimages.windowsphone.com/v8/images/3189a2bf-ea35-4d16-8929-f0b5d7d27f2c</banner>
+		<appHeadline>FIFA 14</appHeadline>
+		<storeURL>http://www.windowsphone.com/en-us/store/app/fifa-14/0ed6989b-5cb9-4b70-a58b-536c0dce36b2</storeURL>
+		<iconUrl>http://cdn.marketplaceimages.windowsphone.com/v8/images/3189a2bf-ea35-4d16-8929-f0b5d7d27f2c</iconUrl>
+		<appDesc>REAL PLAYERS. REAL TEAMS. REAL LEAGUES. Welcome to the most authentic football game on Windows 8. Feel the excitement of every pass, shot, and tackle with new touch controls. Plus, live every moment of real-world football mastery with EA SPORTS™ Football Club Match Day.</appDesc>
+		<screenshots>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/3aad7a1e-1a00-47cb-a082-7e0bfe888d61</screenshot>
+			<screenshot>http://cdn.marketplaceimages.windowsphone.com/v8/images/999f9b29-6aa6-42cd-9ac0-6b129cf82332</screenshot>
+		</screenshots>
+		<category>Igre</category>
+    		<ratingPoints>4.7</ratingPoints>        	
+		<storePrice>Free</storePrice>    		
+    		<developer>Electronic Arts</developer>		
+    	</appInfo>
+</mobAppModel>

@@ -1,0 +1,165 @@
+﻿<Page
+    x:Class="Eronet.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Eronet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image Name="header" HorizontalAlignment="Center" VerticalAlignment="Top" Source="/Assets/ht_eronet.png"></Image>
+        <Image Name="sBtn" Margin="0,12,12,0" Width="50" Height="50" VerticalAlignment="Top" HorizontalAlignment="Right" Source="/Assets/searchIcon.png" Tapped="sBtn_Tapped"></Image>
+        <Grid Margin="0,65,0,0">
+            <ProgressRing x:Name="progress" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="172,0,172,0"></ProgressRing>
+            <Pivot>
+                <!--Preporuceno-->
+                <PivotItem x:Uid="preporuceno" Header="Preporučeno" Margin="0,5,0,0">
+                    <ListView Name="ListaPreporucenih" IsEnabled="False" Tapped="ListaPreporucenih_Tapped" HorizontalAlignment="Center">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Width="auto" Height="auto" Margin="20,5,20,5">
+                                    <Image Width="auto" Height="auto" Source="{Binding banner}" HorizontalAlignment="Center"></Image>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </PivotItem>
+
+                <!--Najgledanije-->
+                <PivotItem x:Uid="najgledanije" Header="Najgledanije" Margin="20,5,20,0">
+                    <ListView Name="ListaNajgledaniji" Tapped="ListaNajgledaniji_Tapped">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,0,0,5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                                        <ColumnDefinition Width="auto"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Grid.Column="0" Name="icon" Width="95" Height="95" Source="{Binding iconUrl}"></Image>
+                                    <Grid Grid.Column="1" Margin="10,0,0,0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"></RowDefinition>
+                                            <RowDefinition Height="auto"></RowDefinition>
+                                            <RowDefinition Height="auto"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Grid.Row="0" Name="appIme" Text="{Binding appHeadline}" FontSize="20" FontWeight="Bold"></TextBlock>
+                                        <TextBlock Grid.Row="1" Name="appDeveloper" Text="{Binding developer}" FontSize="20"></TextBlock>
+                                        <TextBlock Grid.Row="2" Name="ocjena" Text="Ocjena:" FontSize="20"></TextBlock>
+                                        <TextBlock Grid.Row="2" Name="ocjenaValue" Margin="70,0,0,0" Text="{Binding ratingPoints}" FontSize="20"></TextBlock>
+                                    </Grid>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </PivotItem>
+
+                <!--Kategorije-->
+                <PivotItem x:Uid="kategorije" Header="Kategorije" Margin="20,5,20,0">
+                    <ListView Name="ListaKategorija" Tapped="ListaKategorija_Tapped" HorizontalAlignment="Center">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Width="360" Height="47" Margin="0,0,0,5">
+                                    <Border BorderThickness="1" BorderBrush="Gray" Margin="0,0,0,10">
+                                        <TextBlock Name="imeKategorije" Margin="5,0,0,0" Text="{Binding}" FontSize="35" FontWeight="SemiLight"></TextBlock>
+                                    </Border>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </PivotItem>
+
+                <!--About-->
+                <PivotItem x:Uid="About" Margin="20,5,20,0" Header="About">
+                    <ScrollViewer>
+                        <Grid Margin="0,0,0,5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="auto"></RowDefinition>
+                                <RowDefinition Height="auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Image Margin="0,0,0,10" HorizontalAlignment="Center" Source="/Assets/logo_intera.png"></Image>
+                            <Grid Grid.Row="1">
+                                <TextBlock Margin="0,0,0,10" FontSize="15" TextWrapping="WrapWholeWords" TextAlignment="Justify" Text="Ovaj projekt je rezultat rada studenata u sklopu programa 'Moja Praksa' u Intera Tehnološkom Parku. Svrha projekta je izgradnja aplikacije koja bi prezentirala druge aplikacije. Aplikacija je rađena za Android i Windows Phone platformu. Projekt je osmišljen i nadgledan od strane poduzeća HT Eronet koji je također sudjelovao u programu 'Moja Praksa'. Ovim projektom se praktikantima dala prilika da se upoznaju sa stvarnim poslovnim okruženjem, te sticanje praktičnog iskustva i ostvarivanje poslovnih kontakata. Za sva eventualna pitanja, komentare, pohvale ili prijedloge, kontaktirajte nas putem kontakt e-maila."></TextBlock>
+                            </Grid>
+                            <Grid Grid.Row="2">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Arza.jpg"></Image>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center"  Text="Arza Malkić" Margin="0,160,0,0"></TextBlock>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="arza.malkic@edu.fit.ba" Margin="0,180,0,0"></TextBlock>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Meliha.jpg"></Image>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Meliha Gadara"  Margin="0,160,0,0"></TextBlock>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="meliha.gadara@edu.fit.ba" Margin="0,180,0,15"></TextBlock>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="3">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Amir.jpg"></Image>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center"  Text="Amir Hasić" Margin="0,160,0,0"></TextBlock>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="amir.hasic@edu.fit.ba" Margin="0,180,0,0"></TextBlock>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Amer.jpg"></Image>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Amer Bilić"  Margin="0,160,0,0"></TextBlock>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="amer.bilic@edu.fit.ba" Margin="0,180,0,15"></TextBlock>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="4">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Danijel.jpg"></Image>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center"  Text="Danije Tole" Margin="0,160,0,0"></TextBlock>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="danijel.tole@edu.fit.ba" Margin="0,180,0,0"></TextBlock>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Drazen.jpg"></Image>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Dražen Alpeza"  Margin="0,160,0,0"></TextBlock>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="drazen.alpeza@edu.fit.ba" Margin="0,180,0,15"></TextBlock>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Haris.jpg"></Image>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center"  Text="Haris Hasić" Margin="0,160,0,0"></TextBlock>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="haris.hasic@edu.fit.ba" Margin="0,180,0,0"></TextBlock>
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Tarik.jpg"></Image>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Tarik Stupac"  Margin="0,160,0,0"></TextBlock>
+                                    <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="tarik.stupac@edu.fit.ba" Margin="0,180,0,15"></TextBlock>
+                                </Grid>
+                            </Grid>
+                            <Grid Grid.Row="6">
+                                <Image Width="150" Height="150" VerticalAlignment="Top" Stretch="Fill" Source="/Assets/Almir.jpg"></Image>
+                                <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center"  Text="Almir Hasić" Margin="0,160,0,0"></TextBlock>
+                                <TextBlock FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center" Text="almir.hasic@edu.fit.ba" Margin="0,180,0,0"></TextBlock>
+                            </Grid>
+                        </Grid>
+                    </ScrollViewer>
+                </PivotItem>
+            </Pivot>
+        </Grid>
+    </Grid>
+</Page>

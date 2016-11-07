@@ -1,0 +1,94 @@
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\App.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\MainPage.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\Eronet.xr.xml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\Eronet.exe
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\Eronet.pdb
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\resources.pri
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\AppxManifest.xml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\Eronet.build.appxrecipe
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\App.g.i.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\App.g.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\MainPage.g.i.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\MainPage.g.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\App.xaml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\App.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\XamlSaveStateFile.xml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\MainPage.xaml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\MainPage.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Eronet.exe
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Eronet.pdb
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\priconfig.xml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\priconfig.xml.intermediate
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\layout.resfiles
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\layout.resfiles.intermediate
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\resources.resfiles
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\resources.resfiles.intermediate
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\pri.resfiles
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\pri.resfiles.intermediate
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\qualifiers.txt
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\qualifiers.txt.intermediate
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\ProjectArchitectures.txt
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\AppDetails.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\AppDetails.g.i.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\AppDetails.g.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\AppDetails.xaml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\AppDetails.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\Category.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Category.g.i.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Category.g.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Category.xaml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Category.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\bin\Debug\Search.xbf
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Search.g.i.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Search.g.cs
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Search.xaml
+C:\Users\hashe\documents\visual studio 2013\Projects\Eronet\Eronet\obj\Debug\Search.xbf
+G:\Intera\Eronet\Eronet\bin\Debug\App.xbf
+G:\Intera\Eronet\Eronet\bin\Debug\AppDetails.xbf
+G:\Intera\Eronet\Eronet\bin\Debug\Category.xbf
+G:\Intera\Eronet\Eronet\bin\Debug\MainPage.xbf
+G:\Intera\Eronet\Eronet\bin\Debug\Search.xbf
+G:\Intera\Eronet\Eronet\bin\Debug\Eronet.xr.xml
+G:\Intera\Eronet\Eronet\bin\Debug\Eronet.exe
+G:\Intera\Eronet\Eronet\bin\Debug\Eronet.pdb
+G:\Intera\Eronet\Eronet\bin\Debug\resources.pri
+G:\Intera\Eronet\Eronet\bin\Debug\AppxManifest.xml
+G:\Intera\Eronet\Eronet\bin\Debug\Eronet.build.appxrecipe
+G:\Intera\Eronet\Eronet\obj\Debug\App.g.i.cs
+G:\Intera\Eronet\Eronet\obj\Debug\App.g.cs
+G:\Intera\Eronet\Eronet\obj\Debug\AppDetails.g.i.cs
+G:\Intera\Eronet\Eronet\obj\Debug\AppDetails.g.cs
+G:\Intera\Eronet\Eronet\obj\Debug\Category.g.i.cs
+G:\Intera\Eronet\Eronet\obj\Debug\Category.g.cs
+G:\Intera\Eronet\Eronet\obj\Debug\MainPage.g.i.cs
+G:\Intera\Eronet\Eronet\obj\Debug\MainPage.g.cs
+G:\Intera\Eronet\Eronet\obj\Debug\Search.g.i.cs
+G:\Intera\Eronet\Eronet\obj\Debug\Search.g.cs
+G:\Intera\Eronet\Eronet\obj\Debug\XamlTypeInfo.g.cs
+G:\Intera\Eronet\Eronet\obj\Debug\App.xaml
+G:\Intera\Eronet\Eronet\obj\Debug\AppDetails.xaml
+G:\Intera\Eronet\Eronet\obj\Debug\Category.xaml
+G:\Intera\Eronet\Eronet\obj\Debug\MainPage.xaml
+G:\Intera\Eronet\Eronet\obj\Debug\Search.xaml
+G:\Intera\Eronet\Eronet\obj\Debug\App.xbf
+G:\Intera\Eronet\Eronet\obj\Debug\AppDetails.xbf
+G:\Intera\Eronet\Eronet\obj\Debug\Category.xbf
+G:\Intera\Eronet\Eronet\obj\Debug\MainPage.xbf
+G:\Intera\Eronet\Eronet\obj\Debug\Search.xbf
+G:\Intera\Eronet\Eronet\obj\Debug\XamlSaveStateFile.xml
+G:\Intera\Eronet\Eronet\obj\Debug\Eronet.exe
+G:\Intera\Eronet\Eronet\obj\Debug\Eronet.pdb
+G:\Intera\Eronet\Eronet\obj\Debug\priconfig.xml
+G:\Intera\Eronet\Eronet\obj\Debug\priconfig.xml.intermediate
+G:\Intera\Eronet\Eronet\obj\Debug\layout.resfiles
+G:\Intera\Eronet\Eronet\obj\Debug\layout.resfiles.intermediate
+G:\Intera\Eronet\Eronet\obj\Debug\resources.resfiles
+G:\Intera\Eronet\Eronet\obj\Debug\resources.resfiles.intermediate
+G:\Intera\Eronet\Eronet\obj\Debug\pri.resfiles
+G:\Intera\Eronet\Eronet\obj\Debug\pri.resfiles.intermediate
+G:\Intera\Eronet\Eronet\obj\Debug\qualifiers.txt
+G:\Intera\Eronet\Eronet\obj\Debug\qualifiers.txt.intermediate
+G:\Intera\Eronet\Eronet\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+G:\Intera\Eronet\Eronet\obj\Debug\ProjectArchitectures.txt
